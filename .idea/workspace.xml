@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41cb0653-c335-486f-be9f-80685cb892f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dangnhap.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/nhapdiem.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sanpham.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/sanpham.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -192,7 +193,7 @@
       <workItem from="1577186450957" duration="1631000" />
       <workItem from="1577262028548" duration="599000" />
       <workItem from="1577517189558" duration="7634000" />
-      <workItem from="1577606961116" duration="2389000" />
+      <workItem from="1577606961116" duration="4558000" />
     </task>
     <servers />
   </component>

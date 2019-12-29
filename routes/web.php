@@ -289,6 +289,18 @@ Route::get('lienketloaisanpham',function (){
     var_dump($data);
 });
 
+//Middleware
+
+Route::get('diem',function (){
+    echo "Ban da du co diem";
+})->middleware('MyMiddle')->name('diem');
+Route::get('loi',function (){
+   echo "Ban chua du co diem";
+})->name('loi');
+Route::get('nhapdiem',function (){
+   return view('nhapdiem');
+})->name('nhapdiem');
+
 
 
 ?>
