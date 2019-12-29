@@ -241,11 +241,54 @@
        $user->save();
        echo "Da thuc hien save";
     });
+    Route::get('model/sanpham/save/{ten}/{soluong}',function ($ten,$soluong){
+        $sanpham = new App\sanpham();
+
+        $sanpham->ten = $ten;
+        $sanpham->soluong = $soluong;
+
+        $sanpham->save();
+        echo "Da them san pham ".$ten." voi so luong la ".$soluong;
+    });
 
     //Model query
     Route::get('model/query',function (){
        $user = App\User::find(3);
        echo $user->name;
     });
+
+    //lam viec voi toJson
+    Route::get('model/sanpham/all',function (){
+       $sanpham = App\sanpham::all()->toJson();
+       echo $sanpham;
+    });
+    //lam viec voi toArray
+    Route::get('model/sanpham/array',function (){
+        $sanpham = App\sanpham::all()->toArray();
+        var_dump($sanpham);
+    });
+    //lam viec voi Querybulder
+    Route::get('model/sanpham/delete',function (){
+        App\sanpham::destroy(2);
+        echo "Da Xoa";
+    });
+    //Tao cot
+    Route::get('taocot',function (){
+       Schema::table('sanpham',function ($table){
+          $table->integer('id_loaisanpham')->unsigned();
+       });
+    });
+    //lienketbang
+    Route::get('lienket',function (){
+        $data = App\sanpham::find(3)->LoaiSanPham->toArray();
+        var_dump($data);
+    });
+//lienketbang
+Route::get('lienketloaisanpham',function (){
+    $data = App\LoaiSanPham::find(1)->sanpham->toArray();
+    var_dump($data);
+});
+
+
 
 ?>
