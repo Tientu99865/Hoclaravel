@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41cb0653-c335-486f-be9f-80685cb892f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/dangnhap.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/nhapdiem.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/thanhcong.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,8 +122,11 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1RybZBvtID5fGiY87Ul3YWDsRSE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FurnitureStore" />
@@ -193,7 +196,7 @@
       <workItem from="1577186450957" duration="1631000" />
       <workItem from="1577262028548" duration="599000" />
       <workItem from="1577517189558" duration="7634000" />
-      <workItem from="1577606961116" duration="4558000" />
+      <workItem from="1577606961116" duration="9560000" />
     </task>
     <servers />
   </component>
@@ -212,5 +215,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
