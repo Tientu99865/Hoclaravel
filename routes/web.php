@@ -308,4 +308,21 @@ Route::get('dangnhap',function (){
 Route::post('login','AuthController@login')->name('login');
 Route::get('logout','AuthController@logout');
 
+
+//Session
+Route::group(['middleware' => ['web']],function (){
+    Route::get('session',function (){
+        Session::put('KhoaHoc','Laravel'); //put('Tensession','giatri');
+        echo "Da dat session";
+        echo "<br>";
+        //echo Session::get('KhoaHoc');
+        Session::forget('KhoaHoc');//forget('ten') xoa 1 session , flush() xoas tat ca cac session
+        if (Session::has('KhoaHoc')){ //Kiem tra session da ton tai hay chua
+            echo "Da co session";
+        }else{
+            echo "Session Khoa hoc ko ton tai";
+        }
+    });
+    //Session::flash chi ton tai trong 1 route duy nhat
+});
 ?>

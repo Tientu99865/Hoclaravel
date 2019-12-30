@@ -18,7 +18,7 @@ return [
     |
     */
 
-    'driver' => env('SESSION_DRIVER', 'file'),
+    'driver' => env('SESSION_DRIVER', 'file'), //luu vao file
 
     /*
     |--------------------------------------------------------------------------
@@ -31,9 +31,9 @@ return [
     |
     */
 
-    'lifetime' => env('SESSION_LIFETIME', 120),
+    'lifetime' => env('SESSION_LIFETIME', 120), //Thoi gian ton tai cua session
 
-    'expire_on_close' => false,
+    'expire_on_close' => false, //=> true thì session se bien mat khi dong trinh duyet
 
     /*
     |--------------------------------------------------------------------------
