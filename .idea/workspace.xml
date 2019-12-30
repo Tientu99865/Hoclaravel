@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41cb0653-c335-486f-be9f-80685cb892f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/view_products.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,7 +197,7 @@
       <workItem from="1577262028548" duration="599000" />
       <workItem from="1577517189558" duration="7634000" />
       <workItem from="1577606961116" duration="9560000" />
-      <workItem from="1577718799186" duration="1956000" />
+      <workItem from="1577718799186" duration="4474000" />
     </task>
     <servers />
   </component>

@@ -325,4 +325,8 @@ Route::group(['middleware' => ['web']],function (){
     });
     //Session::flash chi ton tai trong 1 route duy nhat
 });
+
+//Phan trang
+
+Route::get('products','ProductController@index');
 ?>
